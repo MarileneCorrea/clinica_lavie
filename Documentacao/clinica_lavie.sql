@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `clinica_lavie`.`pacientes` (
   `id_paciente` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(200) NOT NULL,
   `email` VARCHAR(100) NOT NULL,
-  `idade` DATE NOT NULL,
+  `data_nascimento` DATE NOT NULL,
   `createdAt` DATE NULL,
   `updatedAt` DATE NULL,
   PRIMARY KEY (`id_paciente`),

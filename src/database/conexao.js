@@ -3,7 +3,7 @@
 // Constantes para conexão com a base de dados
 const DB_NAME = "clinica_lavie";
 const DB_USER = "root";
-const DB_PASS = "12345";
+const DB_PASS = "@Mari25102000";
  
 // Objetos com configurações para conexão
 const DB_CONFIG = {
@@ -19,6 +19,7 @@ try {
    db = new Sequelize(DB_NAME, DB_USER, DB_PASS, DB_CONFIG);
 }catch (error) {
    console.error("Error ao tentar uma conexão com banco dados");
+   console.error(error); 
 }
 // Metodo de teste do sequelize para teste 
 // de conexão com a base de dados 
